@@ -30,10 +30,10 @@ from itertools import dropwhile
 from typing import Dict, Iterator, List, Tuple
 from multiprocessing import Pool, cpu_count
 
-from arxiv_public_data.tex2utf import tex2utf
-from arxiv_public_data.config import LOGGER, DIR_OUTPUT
+# from arxiv_public_data.tex2utf import tex2utf
+# from arxiv_public_data.config import LOGGER, DIR_OUTPUT
 
-logger = LOGGER.getChild('authorsplit')
+# logger = LOGGER.getChild('authorsplit')
 
 PREFIX_MATCH = 'van|der|de|la|von|del|della|da|mac|ter|dem|di|vaziri'
 
